@@ -99,9 +99,7 @@ h1 a{
 
 /* video */
 #video{
-    margin-left: 380px;
-   margin-right: 200px;
-   align-self: center;
+  
 }
 #last{
     color:white;
@@ -113,7 +111,7 @@ h1 a{
 iframe{
    border: cyan solid;
    margin-top: 10px;
-   
+   transform: translate(65%,0%);
 }
 /* footer */
 #sitefooter{
@@ -127,6 +125,64 @@ footer{
     font-size: 15px;
 
 }
-
+@media screen and (max-width:500px){
+    #siteHeader{
+        flex-direction: column;
+        padding-left: 0px;
+    }
+    #top{
+        text-align: center;
+    }
+    #option{
+        text-align: center;
+    }
+    section{
+        margin:0 auto;
+    }
+    #prop{
+        margin: 0 auto;
+        font-size: 20px;
+        max-width: 260px;
+    }
+    #prop a{
+        font-size: 40px;
+    }
+    #tabela{
+        flex-direction: column;
+    }
+    #video{
+       
+    }
+    iframe{
+        max-width: 300px;
+        max-height: 200px;
+        transform: translate(30%,0%);
+    }
+    footer{
+        font-size: 12px;
+        text-align: center;
+    }
+    .rede{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    #last{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:360px){
+    iframe{
+        max-width: 300px;
+        max-height: 200px;
+        transform: translate(10%,0%);
+    }
+}
+@media screen and (min-width:375px){
+    iframe{
+        max-width: 300px;
+        max-height: 200px;
+        transform: translate(11%,0%);
+    }
+}
 
 
